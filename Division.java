@@ -7,11 +7,12 @@ public class Division {
         return a/b;
     }
     public static void main(String[]agrs){
-   Scanner pk = new Scanner(System.in);
+   Scanner div = new Scanner(System.in);
    System.out.println("enter the first number");
-   int a = pk.nextInt();
+   int a = div.nextInt();
    System.out.println("enter the second number");
-   int b = pk.nextInt();
+   int b = div.nextInt();
    System.out.println("division = "+(a/b));
+   div.close();
 }
 }

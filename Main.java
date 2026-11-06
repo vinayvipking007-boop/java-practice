@@ -11,6 +11,5 @@ public class Main {
     marks[2] = 94;
     System.out.println(marks[2]);
 
-    }
-    
+    } 
 }

@@ -1,10 +1,10 @@
 import java.util.Arrays;
 public class Array1D {
     public static void main(String[]args){
-        int english = 90;
-        int math = 95;
-        int sst = 94;
-        int science = 88;
+        int A = 90;
+        int b= 95;
+        int c = 94;
+        int d = 88;
 
         int [] marks = new int[4];
         marks[0] = 90;
@@ -15,7 +15,7 @@ public class Array1D {
         //System.out.println(marks.length);
         //sort
         System.out.println(marks[0]);
-        Array1D.sort(marks);
+        Arrays.sort(marks);
         System.out.println(marks[3]);
 
     }
